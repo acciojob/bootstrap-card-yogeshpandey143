@@ -1,2 +1,30 @@
 
 /* Your CSS Code here. */
+
+.card-deck{
+	display:felx;
+}
+
+.card-deck .card-footer {
+    background-color: #f8f9fa;
+}
+
+.card3 .card-body {
+    height: 300px;
+	
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card2 .card-body {
+    height: 300px;
+	
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-deck .card-body p {
+    flex-grow: 1;
+}
